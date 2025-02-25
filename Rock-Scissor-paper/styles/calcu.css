@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid rgb(141, 139, 139);
+    padding: 10px;
+    border-radius: 5px;
+    width: 169px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.display{
+    margin-bottom:10px ;
+    height: 25px;
+    border: 1px solid rgb(133, 131, 131);
+    padding: 3px;
+    width: 128px;
+    text-align: right;
+    font-size: 23px;
+
+}
+.calc-button{
+    font-size: 21px;
+    padding: 5px;
+    margin: 4px;
+    width: 35px;
+    height: 35px;
+
+}

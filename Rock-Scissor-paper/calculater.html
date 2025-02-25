@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project calculator</title>
+    <link rel="stylesheet" href="styles/calcu.css">
+</head>
+<body>
+    <div class="container">
+       <div class="display"></div>
+       <button class="calc-button" onclick="
+       displayText = '';
+       document.querySelector('.display').innerText =displayText; ">C</button>
+       <button class="calc-button" onclick="
+        displayText += '1';
+        document.querySelector('.display').innerText =displayText;
+
+       ">1</button>
+       <button class="calc-button" onclick="
+       displayText += '2';
+       document.querySelector('.display').innerText =displayText;
+      ">2</button>
+       <button class="calc-button" onclick="
+       displayText += '+';
+       document.querySelector('.display').innerText =displayText;
+
+      ">+</button>
+       <button class="calc-button" onclick="
+       displayText += '3';
+       document.querySelector('.display').innerText =displayText;
+      ">3</button>
+       <button class="calc-button" onclick="
+       displayText += '4';
+       document.querySelector('.display').innerText =displayText;
+      ">4</button>
+       <button class="calc-button" onclick="
+       displayText += '-';
+       document.querySelector('.display').innerText =displayText;
+
+      ">-</button>
+       <button class="calc-button" onclick="
+       displayText += '5';
+       document.querySelector('.display').innerText =displayText;
+      ">5</button>
+       <button class="calc-button" onclick="
+       displayText += '6';
+       document.querySelector('.display').innerText =displayText;
+      ">6</button>
+       <button class="calc-button" onclick="
+       displayText += '*';
+       document.querySelector('.display').innerText =displayText;
+
+      ">*</button>
+       <button class="calc-button" onclick="
+       displayText += '7';
+       document.querySelector('.display').innerText =displayText;
+      ">7</button>
+       <button class="calc-button" onclick="
+       displayText += '8';
+       document.querySelector('.display').innerText =displayText;
+      ">8</button>
+       <button class="calc-button" onclick="
+       displayText += '/';
+       document.querySelector('.display').innerText =displayText;
+
+      ">/</button>
+       <button class="calc-button" onclick="
+       let finalValue = eval(displayText);
+       displayText = finalValue;
+       document.querySelector('.display').innerText =displayText;
+      ">=</button>
+       <button class="calc-button" onclick="
+       displayText += '9';
+       document.querySelector('.display').innerText =displayText;
+      ">9</button>
+       <button class="calc-button" onclick="
+       displayText += '0';
+       document.querySelector('.display').innerText =displayText;
+      ">0</button>
+       <button class="calc-button" onclick="
+       displayText += '.';
+       document.querySelector('.display').innerText =displayText;
+
+      ">.</button>
+       
+    </div>
+    <script>
+        let displayText ='';
+        document.querySelector('.display').innerText =displayText;
+    </script>
+</body>
+</html>
