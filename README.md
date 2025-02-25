@@ -49,7 +49,7 @@ To run this project locally:
 
 1️⃣ Clone the repository  
    ```sh
-  https://github.com/ERT-hasan/Rock-Scissor-paper
+ https://github.com/ERT-hasan/Rock-Scissor-paper/tree/main/Rock-Scissor-paper
 
 📸 Screenshot
 (![Screenshot 2025-02-25 234936](https://github.com/user-attachments/assets/51aa9d1e-dc3b-46d2-9818-5e43a0868ce5)
